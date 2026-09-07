@@ -14,8 +14,8 @@ def countingSort(A, k): #descendente
 
     return B
 
-k = 20
-datos = [14, 3, 20, 0, 7, 14, 18, 2, 7, 11]
+k = 29
+datos = [27, 9, 28, 10, 3, 15, 0, 2, 17, 22]
 
 resultado = countingSort(datos, k)
 print("Lista desordenada:", datos)
