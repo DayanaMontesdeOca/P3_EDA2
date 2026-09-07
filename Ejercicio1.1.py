@@ -20,10 +20,10 @@ def dinamico(A):
         print(f"Error")
     return k
 
-A = [14, 3, 20, 0, 7, 14, 18, 2, 7, 11]
+A = [27, 9, 28, 10, 3, 15, 0, 2, 17, 22]
 k = dinamico(A)
 B = countingSort(A, k)
 
-print("Lista original A: ", A)
-print("Valor de k:       ", k)
-print("Lista ordenada B: ", B)
+print("k: ", k)
+print("Lista desordenada: ", A)
+print("Lista ordenada: ", B)
